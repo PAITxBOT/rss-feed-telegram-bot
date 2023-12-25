@@ -3,7 +3,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, scoped_session
 
-DATABASE_URL = os.environ.get("postgres://wrpycndi:REE6wL-n9h-Tyrl8LLE-6mA-mQpFnWnS@peanut.db.elephantsql.com/wrpycndi")
+DATABASE_URL = os.environ.get("postgres://kqtshnww:QRG79h0i4oPLSvEOGk_CRmstNxf3PWwJ@tuffi.db.elephantsql.com/kqtshnww")
 
 def start() -> scoped_session:
     engine = create_engine(DATABASE_URL)
